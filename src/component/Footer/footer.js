@@ -2,17 +2,17 @@ import React from "react";
 import { Footer, Button } from "react-daisyui";
 import image2 from "../../images/heart (9).png";
 
-const Foot = () => {
+const Foot = ({ currentPage, handlePageChange }) => {
   return (
     <Footer className="footer footer-center p-10 bg-base-100 text-base-content rounded ">
       <div className="">
         <Footer.Title>Company</Footer.Title>
-        <div>
-          <Button size="sm" className="link link-hover">Home</Button>
-          <Button size="sm" className="link link-hover">About</Button>
-          <Button size="sm" className="link link-hover">Projects</Button>
-          <Button size="sm" className="link link-hover">Shop</Button>
-          <Button size="sm" className="link link-hover">Contact</Button>
+        <div className="hidden sm:flex items-stretch">
+          <a href="#home" onClick={() => handlePageChange('Home')} className={currentPage === 'Home' ? 'nav-link active' : 'nav-link'}>Home</a>
+          <a href="#about" onClick={() => handlePageChange('About')} className={currentPage === 'About' ? 'nav-link active' : 'nav-link'}>About</a>
+          <a href="#portfolio" onClick={() => handlePageChange('Portfolio')} className={currentPage === 'Portfolio' ? 'nav-link active' : 'nav-link'}>Portfolio</a>
+          <a href="#shop" onClick={() => handlePageChange('Shop')} className={currentPage === 'Shop' ? 'nav-link active' : 'nav-link'}>Shop</a>
+          <a href="#contact" onClick={() => handlePageChange('Contact')} className={currentPage === 'Contact' ? 'nav-link active' : 'nav-link'}>Contact</a>
         </div>
         <Footer.Title>Services</Footer.Title>
         <div>
