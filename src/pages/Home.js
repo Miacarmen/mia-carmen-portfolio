@@ -4,7 +4,7 @@ import { Hero, Button } from "react-daisyui";
 const Home = () => {
   return (
     <Hero>
-      <Hero.Overlay className="min-h-screen bg-base-200" />
+      <Hero.Overlay className="min-h-screen bg-primary" />
       <Hero.Content className="text-center">
         <div className="max-w-md">
           <h1 className="text-5xl font-bold">Mia Carmen</h1>
@@ -13,7 +13,7 @@ const Home = () => {
             <br></br>
             Based in Los Angeles.
           </h2>
-          <Button className="mt-5 btn btn-primary">Learn More</Button>
+          <Button className="mt-5 btn bg-base-200 btn-outline-none text-black">Learn More</Button>
         </div>
       </Hero.Content>
     </Hero>

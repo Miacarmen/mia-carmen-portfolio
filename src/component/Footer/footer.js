@@ -4,7 +4,7 @@ import image2 from "../../images/heart (9).png";
 
 const Foot = ({ currentPage, handlePageChange }) => {
   return (
-    <Footer className="footer footer-center p-10 bg-base-100 text-base-content rounded ">
+    <Footer className="footer footer-center p-10 bg-base-200 text-base-content rounded ">
       <div>
         <div>
         <Footer.Title>Company</Footer.Title>
@@ -63,13 +63,13 @@ const Foot = ({ currentPage, handlePageChange }) => {
           <Footer.Title>Social</Footer.Title>
         </div>
         <div>
-          <Button size="sm" className="link link-hover">
+          <Button size="sm" className="btn-primary link link-hover">
             Github
           </Button>
-          <Button size="sm" className="link link-hover">
+          <Button size="sm" className="btn-primary link link-hover">
             Instagram
           </Button>
-          <Button size="sm" className="link link-hover">
+          <Button size="sm" className="btn-primary link link-hover">
             LinkedIn
           </Button>
         </div>

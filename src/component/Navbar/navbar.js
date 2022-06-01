@@ -4,7 +4,7 @@ import image from "../../images/heart (8).png";
 
 const Nav = ({ currentPage, handlePageChange }) => {
   return (
-    <Navbar>
+    <Navbar className="bg-base-200">
       <Navbar.Start className="px-2 mx-2">
         <span className="text-lg font-bold">
           <img alt="logo" src={image} height="70px" width="70px"></img>
