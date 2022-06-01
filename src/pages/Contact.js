@@ -7,7 +7,7 @@ import React from "react";
 
 const Contact = () => {
   return (
-    <div className="p-6 flex flex-col justify-center items-center">
+    <div className="bg-base-200 p-6 flex flex-col justify-center items-center">
       <form>
         <div className="grid grid-cols-2 gap-4">
           <div className="flex flex-col">

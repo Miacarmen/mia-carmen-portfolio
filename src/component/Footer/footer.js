@@ -1,12 +1,13 @@
 import React from "react";
 import { Footer, Button } from "react-daisyui";
+// import "../../styles/footerStyle.css";
 import image2 from "../../images/heart (9).png";
 
 // * TO-DO: add Social icons with links to profiles
 
 const Foot = ({ currentPage, handlePageChange }) => {
   return (
-    <Footer className="footer footer-center p-10 bg-base-200 text-base-content rounded ">
+    <Footer className="footer footer-center p-10 bg-base-100  rounded ">
       <div>
         <div>
           <Footer.Title>Company</Footer.Title>

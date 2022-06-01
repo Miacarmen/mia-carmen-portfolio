@@ -1,0 +1,25 @@
+/* importing font */
+@import url('https://fonts.googleapis.com/css?family=Cairo');
+
+
+
+.myName {
+  background-image: url(https://media.giphy.com/media/xUOxfcThsc5Yyiwphu/giphy.gif);
+  background-size: cover;
+  color: transparent;
+  background-clip: text;
+  text-transform: uppercase;
+  font-size: 6em;
+  margin: 10px 0;
+  font-family: "Bungee", sans-serif;
+}
+
+/* Red Purple Orange hearts https://media.giphy.com/media/YVrgOcqxm7m96eeCB6/giphy.gif */
+
+/* Static https://media.giphy.com/media/Ph0oIVQeuvh0k/giphy.gif */
+
+/* Skull https://media.giphy.com/media/3o7qE8TcxvLxDGPBmM/giphy.gif */
+
+/* lava ish https://media.giphy.com/media/LnEeDF1IzKdZlHruw9/giphy.gif */
+
+/* pink orange yellow flowy thing https://media.giphy.com/media/3o85xH0vZ6np1ciShW/giphy.gif */
