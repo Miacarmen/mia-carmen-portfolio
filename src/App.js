@@ -1,11 +1,9 @@
-import Nav from "./component/Navbar/navbar.js";
-import Foot from "./component/Footer/footer.js";
+import Container from "./component/Container/pageContainer";
 
 export default function App() {
   return (
-      <div >
-        <Nav />
-        <Foot />
-      </div>
+    <div>
+      <Container />
+    </div>
   );
 }
