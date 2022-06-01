@@ -2,6 +2,8 @@ import React from "react";
 import { Footer, Button } from "react-daisyui";
 import image2 from "../../images/heart (9).png";
 
+// * TO-DO: add Social icons with links to profiles
+
 const Foot = ({ currentPage, handlePageChange }) => {
   return (
     <Footer className="footer footer-center p-10 bg-base-200 text-base-content rounded ">
@@ -72,13 +74,13 @@ const Foot = ({ currentPage, handlePageChange }) => {
           <Footer.Title>Social</Footer.Title>
         </div>
         <div>
-          <Button size="sm" className="btn-primary  hover:bg-secondary">
+          <Button size="sm" className="btn-primary  hover:bg-secondary border-none">
             Github
           </Button>
-          <Button size="sm" className="btn-primary  hover:bg-secondary">
+          <Button size="sm" className="btn-primary  hover:bg-secondary border-none">
             Instagram
           </Button>
-          <Button size="sm" className="btn-primary hover:bg-secondary">
+          <Button size="sm" className="btn-primary hover:bg-secondary border-none">
             LinkedIn
           </Button>
         </div>

@@ -1,5 +1,7 @@
 import React from "react";
 
+// * TO-DO: add professional image of myself
+
 const About = () => {
   return (
     <div className="container max-w-screen-lg mx-auto pt-10 pb-10 text-neutral-content grid grid-flow-col gap-4">

@@ -11,6 +11,8 @@ import Shop from "../../pages/Shop";
 export default function PageContainer() {
   const [currentPage, setCurrentPage] = useState("Home");
 
+  // * TO-DO: render current page without the page reloading
+
   // render current page
   const renderPage = () => {
     if (currentPage === "Home") {
