@@ -7,7 +7,7 @@ const Foot = ({ currentPage, handlePageChange }) => {
     <Footer className="footer footer-center p-10 bg-base-200 text-base-content rounded ">
       <div>
         <div>
-        <Footer.Title>Company</Footer.Title>
+          <Footer.Title>Company</Footer.Title>
         </div>
         <div className="hidden sm:flex items-stretch space-x-4 mb-4 mt-4">
           <a
@@ -23,6 +23,15 @@ const Foot = ({ currentPage, handlePageChange }) => {
             className={currentPage === "About" ? "nav-link active" : "nav-link"}
           >
             About
+          </a>
+          <a
+            href="#resume"
+            onClick={() => handlePageChange("Resume")}
+            className={
+              currentPage === "Resume" ? "nav-link active" : "nav-link"
+            }
+          >
+            Resume
           </a>
           <a
             href="#portfolio"

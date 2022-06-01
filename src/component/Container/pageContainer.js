@@ -3,6 +3,7 @@ import Nav from "../Navbar/navbar";
 import Foot from "../Footer/footer";
 import Home from "../../pages/Home";
 import About from "../../pages/About";
+import Resume from "../../pages/Resume";
 import Contact from "../../pages/Contact";
 import Portfolio from "../../pages/Portfolio";
 import Shop from "../../pages/Shop";
@@ -18,6 +19,9 @@ export default function PageContainer() {
     if (currentPage === "About") {
       return <About />;
     }
+    if (currentPage === "Resume") {
+        return <Resume />;
+      }
     if (currentPage === "Portfolio") {
       return <Portfolio />;
     }

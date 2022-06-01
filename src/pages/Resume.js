@@ -1,0 +1,1 @@
+// add link to a downloadable resume and a list of the developer’s proficiencies
