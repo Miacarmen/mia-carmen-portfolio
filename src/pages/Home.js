@@ -13,7 +13,7 @@ const Home = () => {
             <br></br>
             Based in Los Angeles.
           </h2>
-          <Button className="mt-5 btn bg-base-200 btn-outline-none text-black">Learn More</Button>
+          <Button className="mt-5 btn bg-base-200 btn-outline-primary text-base-content hover:bg-secondary">Learn More</Button>
         </div>
       </Hero.Content>
     </Hero>

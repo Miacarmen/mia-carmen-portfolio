@@ -63,13 +63,13 @@ const Foot = ({ currentPage, handlePageChange }) => {
           <Footer.Title>Social</Footer.Title>
         </div>
         <div>
-          <Button size="sm" className="btn-primary link link-hover">
+          <Button size="sm" className="btn-primary  hover:bg-secondary">
             Github
           </Button>
-          <Button size="sm" className="btn-primary link link-hover">
+          <Button size="sm" className="btn-primary  hover:bg-secondary">
             Instagram
           </Button>
-          <Button size="sm" className="btn-primary link link-hover">
+          <Button size="sm" className="btn-primary hover:bg-secondary">
             LinkedIn
           </Button>
         </div>
