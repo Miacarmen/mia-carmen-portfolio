@@ -1,10 +1,11 @@
-// import './App.css';
 import Nav from "./component/Navbar/navbar.js";
+import Foot from "./component/Footer/footer.js";
 
 export default function App() {
   return (
-      <div className="max-w-screen-xl m-auto mb-20">
+      <div >
         <Nav />
+        <Foot />
       </div>
   );
 }
