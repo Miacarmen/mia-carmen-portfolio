@@ -11,6 +11,10 @@
 
 Portfolio built with react. All my Web Development Apps and Illustrations in one place. 
 
+## Deployed Site
+
+See my React portfolio [Here](https://miacarmen.github.io/react-portfolio/)
+
 ## Tools
 
 - [HTML]()
@@ -25,5 +29,10 @@ Portfolio built with react. All my Web Development Apps and Illustrations in one
 ## Usage
 
 ## Credits
+
+This application was created by **Mia Carmen** 
+
+- [Link to Github](https://github.com/Miacarmen)
+- [Link to LinkedIn](https://www.linkedin.com/in/mia-carmen-7750a6b8/)
 
 ## License
