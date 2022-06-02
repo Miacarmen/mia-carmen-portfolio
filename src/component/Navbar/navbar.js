@@ -38,9 +38,9 @@ const Nav = ({ currentPage, handlePageChange }) => {
 
         <div className="hidden md:flex items-stretch space-x-4 font-medium">
           <a href="#home" onClick={() => handlePageChange('Home')} className={currentPage === 'Home' ? 'nav-link active' : 'nav-link'}>Home</a>
-          <a href="#portfolio" onClick={() => handlePageChange('Portfolio')} className={currentPage === 'Portfolio' ? 'nav-link active' : 'nav-link'}>Portfolio</a>
-          <a href="#resume" onClick={() => handlePageChange('Resume')} className={currentPage === 'Resume' ? 'nav-link active' : 'nav-link'}>Resume</a>
-          <a href="#shop" onClick={() => handlePageChange('Shop')} className={currentPage === 'Shop' ? 'nav-link active' : 'nav-link'}>Shop</a>
+          {/* <a href="#portfolio" onClick={() => handlePageChange('Portfolio')} className={currentPage === 'Portfolio' ? 'nav-link active' : 'nav-link'}>Portfolio</a> */}
+          {/* <a href="#resume" onClick={() => handlePageChange('Resume')} className={currentPage === 'Resume' ? 'nav-link active' : 'nav-link'}>Resume</a> */}
+          {/* <a href="#shop" onClick={() => handlePageChange('Shop')} className={currentPage === 'Shop' ? 'nav-link active' : 'nav-link'}>Shop</a> */}
           <a href="#about" onClick={() => handlePageChange('About')} className={currentPage === 'About' ? 'nav-link active' : 'nav-link'}>About</a>
           <a href="#contact" onClick={() => handlePageChange('Contact')} className={currentPage === 'Contact' ? 'nav-link active' : 'nav-link'}>Contact</a>
         </div>
