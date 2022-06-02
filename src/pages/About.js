@@ -6,10 +6,10 @@ const About = () => {
   return (
     <div className="bg-base-200 pb-7 pt-7">
       <div className="container max-w-screen-lg mx-auto pt-10 pb-10 text-neutral-content content-center grid grid-cols-1 sm:grid-cols-1 md:grid-cols-2 gap-4">
-        <div className="card mx-auto pb-10 w-96 bg-primary">
+        <div className="card mx-auto pb-3 w-96 bg-primary">
           <div className="card-body content-center">
             <h2 className="card-title text-center">About Me</h2>
-            <div className="pl-7">
+            <div className="pl-7 pb-5">
               <img
                 alt="headshot"
                 src={profileImg}
@@ -37,7 +37,7 @@ const About = () => {
           <div className="card-body">
             <h2 className="card-title">Skills</h2>
             <h3 className="font-bold mt-3">Design:</h3>
-            <ul className="grid grid-cols-2 text-base-content">
+            <ul className="grid grid-cols-2 text-base-content font-semibold">
               <li>Adobe Photoshop</li>
               <li>Adobe Illustrator</li>
               <li>Adobe Animate</li>
@@ -49,7 +49,7 @@ const About = () => {
               <li>Figma</li>
             </ul>
             <h3 className="font-bold mt-5">Web Dev:</h3>
-            <ul className="grid grid-cols-3 gap-x-9 text-base-content list-outside">
+            <ul className="grid grid-cols-3 gap-x-9 text-base-content list-outside font-semibold">
               <li>HTML</li>
               <li>CSS</li>
               <li>Bootstrap</li>

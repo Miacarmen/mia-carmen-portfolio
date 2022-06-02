@@ -1,6 +1,5 @@
 import React from "react";
 import { Navbar } from "react-daisyui";
-// import "../../styles/navStyle.css";
 import image from "../../images/heart (8).png";
 
 // * TO-DO: add hamburger menu for mobile views
@@ -8,6 +7,7 @@ import image from "../../images/heart (8).png";
 
 const Nav = ({ currentPage, handlePageChange }) => {
   return (
+
     <Navbar className="navbar bg-primary">
       <Navbar.Start className="px-2 mx-2">
         <span className="text-lg font-bold">
@@ -17,7 +17,7 @@ const Nav = ({ currentPage, handlePageChange }) => {
 
     
 
-      <Navbar.End className="flex-1 px-2 mx-2">
+      <Navbar.End className="flex-1 px-2 mx-2 ">
         <div className="hidden sm:flex items-stretch space-x-4 font-medium">
           <a href="#home" onClick={() => handlePageChange('Home')} className={currentPage === 'Home' ? 'nav-link active' : 'nav-link'}>Home</a>
           <a href="#about" onClick={() => handlePageChange('About')} className={currentPage === 'About' ? 'nav-link active' : 'nav-link'}>About</a>

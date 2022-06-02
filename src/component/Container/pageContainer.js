@@ -22,8 +22,8 @@ export default function PageContainer() {
       return <About />;
     }
     if (currentPage === "Resume") {
-        return <Resume />;
-      }
+      return <Resume />;
+    }
     if (currentPage === "Portfolio") {
       return <Portfolio />;
     }
@@ -35,7 +35,9 @@ export default function PageContainer() {
     }
   };
 
-  const handlePageChange = (page) => setCurrentPage(page);
+  const handlePageChange = (page) => {
+    setCurrentPage(page);
+  };
 
   return (
     <div>
@@ -44,7 +46,6 @@ export default function PageContainer() {
       {renderPage()}
 
       <Foot currentPage={currentPage} handlePageChange={handlePageChange} />
-      
     </div>
   );
 }

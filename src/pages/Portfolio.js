@@ -42,6 +42,13 @@ const Portfolio = () => {
           >
             Link to Github
           </a>
+          <a
+            href="https://miacarmen.github.io/Day-Planner/"
+            target="blank"
+            className="text-secondary"
+          >
+            Live Site Here
+          </a>
           <img alt="Day Planner" src={p2}></img>
         </Card>
         <Card>
