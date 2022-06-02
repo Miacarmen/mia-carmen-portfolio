@@ -1,0 +1,12 @@
+@media screen and (max-width: 768px) {
+    .dropMenu ul {
+      /* previous styles */
+      display: none;
+    }
+  }
+
+  @media screen and (min-width: 600px) {
+    .dropMenu ul {
+      display: block;
+    }
+  }

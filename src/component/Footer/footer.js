@@ -75,7 +75,7 @@ const Foot = ({ currentPage, handlePageChange }) => {
         <div className="my-3 font-semibold text-lg">
           <Footer.Title>Social</Footer.Title>
         </div>
-        <div className="hidden sm:flex items-stretch space-x-4 mb-4 mt-4">
+        <div className="sm:flex items-stretch space-x-4 mb-4 mt-4">
           <img alt="github" src={icon1} height="40px" width="50px"></img>
           <img alt="linkedin" src={icon2} height="40px" width="50px"></img>
           <img alt="instagram" src={icon3} height="40px" width="50px"></img>
