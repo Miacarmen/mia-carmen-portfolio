@@ -94,3 +94,4 @@ const Foot = ({ currentPage, handlePageChange }) => {
 };
 
 export default Foot;
+
