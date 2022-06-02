@@ -1,14 +1,23 @@
 import React from "react";
-
+import profileImg from "../images/HeadShot.jpg";
 // * TO-DO: add professional image of myself
 
 const About = () => {
   return (
-    <div className="bg-base-200 ">
-      <div className="container max-w-screen-lg mx-auto pt-10 pb-10 text-neutral-content grid grid-flow-col gap-4">
+    <div className="bg-base-200 pb-7 pt-7">
+      <div className="container max-w-screen-lg mx-auto pt-10 pb-10 text-neutral-content content-center grid grid-cols-1 sm:grid-cols-1 md:grid-cols-2 gap-4">
         <div className="card mx-auto pb-10 w-96 bg-primary">
-          <div className="card-body">
-            <h2 className="card-title">About Me</h2>
+          <div className="card-body content-center">
+            <h2 className="card-title text-center">About Me</h2>
+            <div className="pl-7">
+              <img
+                alt="headshot"
+                src={profileImg}
+                className="rounded-full"
+                width="250px"
+                height="250px"
+              ></img>
+            </div>
             <p className="text-base-content font-bold">
               My name is Mia Carmen. I'm a full stack web developer, graphic
               designer, and illustrator based in Los Angeles, CA. I've gained my
