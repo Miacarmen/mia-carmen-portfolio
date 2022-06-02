@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/react-portfolio/static/css/main.70d38ffa.css",
-    "main.js": "/react-portfolio/static/js/main.5a474af8.js",
+    "main.css": "/react-portfolio/static/css/main.1e28ee8f.css",
+    "main.js": "/react-portfolio/static/js/main.1fbe5bd6.js",
     "static/media/Devils-Disco-Bottom.png": "/react-portfolio/static/media/Devils-Disco-Bottom.e5cab5e60150973e7d39.png",
     "static/media/Devils-Disco-Top.png": "/react-portfolio/static/media/Devils-Disco-Top.98d2ea9d8d882b7ebe12.png",
     "static/media/Feral.png": "/react-portfolio/static/media/Feral.e77cb5b053d55c27ae64.png",
@@ -13,15 +13,16 @@
     "static/media/DayPlanner.png": "/react-portfolio/static/media/DayPlanner.4e81360dc30706bcb786.png",
     "static/media/heart (9).png": "/react-portfolio/static/media/heart (9).6f5cc1a7d66d695b639b.png",
     "static/media/heart (8).png": "/react-portfolio/static/media/heart (8).c6f08fff35ad3a7f4a85.png",
+    "static/media/HeadShot.jpg": "/react-portfolio/static/media/HeadShot.26b9d773c5076f080f56.jpg",
     "static/media/instagram.png": "/react-portfolio/static/media/instagram.b4ff9be06a8f84fada1b.png",
     "static/media/github.png": "/react-portfolio/static/media/github.44eee0c4a6c25b0d7347.png",
     "static/media/linkedin.png": "/react-portfolio/static/media/linkedin.032cf8a63be2f0f4d425.png",
     "index.html": "/react-portfolio/index.html",
-    "main.70d38ffa.css.map": "/react-portfolio/static/css/main.70d38ffa.css.map",
-    "main.5a474af8.js.map": "/react-portfolio/static/js/main.5a474af8.js.map"
+    "main.1e28ee8f.css.map": "/react-portfolio/static/css/main.1e28ee8f.css.map",
+    "main.1fbe5bd6.js.map": "/react-portfolio/static/js/main.1fbe5bd6.js.map"
   },
   "entrypoints": [
-    "static/css/main.70d38ffa.css",
-    "static/js/main.5a474af8.js"
+    "static/css/main.1e28ee8f.css",
+    "static/js/main.1fbe5bd6.js"
   ]
 }
