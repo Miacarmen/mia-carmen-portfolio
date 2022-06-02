@@ -17,7 +17,7 @@ const Prints = () => {
         <Card className="card-title lg:card-side bg-base-100 shadow-xl mb-5">
           <div className="card-body">
             <img alt="Swimming" src={img1}></img>
-            <h5 className=" text-xl">Swimming</h5>
+            <Card.Title>Swimming</Card.Title>
             <div className="card-actions justify-center">
               <button className="btn btn-primary buyNow">Add to Cart</button>
             </div>
@@ -27,7 +27,7 @@ const Prints = () => {
         <Card className="card lg:card-side bg-base-100 shadow-xl mb-5">
           <div className="card-body">
             <img alt="Feral" src={img2}></img>
-            <h2 className="card-title text-xl">Feral</h2>
+            <Card.Title>Feral</Card.Title>
             <div className="card-actions justify-center">
               <button className="btn btn-primary buyNow">Add to Cart</button>
             </div>
@@ -37,9 +37,9 @@ const Prints = () => {
         <Card className="card lg:card-side bg-base-100 shadow-xl mb-5">
           <div className="card-body">
             <img alt="Temper" src={img3}></img>
-            <h2 className="card-title text-xl">
+            <Card.Title>
               Careful Now, She's Got a Temper
-            </h2>
+            </Card.Title>
             <div className="card-actions justify-center">
               <button className="btn btn-primary buyNow">Add to Cart</button>
             </div>
@@ -49,7 +49,7 @@ const Prints = () => {
         <Card className="card lg:card-side bg-base-100 shadow-xl mb-5">
           <div className="card-body">
             <img alt="Devil Girl" src={img4}></img>
-            <h2 className="card-title text-xl">Good Girl</h2>
+            <Card.Title>Good Girl</Card.Title>
             <div className="card-actions justify-center">
               <button className="btn btn-primary buyNow">Add to Cart</button>
             </div>
@@ -59,7 +59,7 @@ const Prints = () => {
         <Card className="card lg:card-side bg-base-100 shadow-xl mb-5">
           <div className="card-body">
             <img alt="Devil's Disco" src={img5}></img>
-            <h2 className="card-title text-xl">The Devils Disco</h2>
+            <Card.Title>The Devils Disco</Card.Title>
             <p>**Animation Under Construction</p>
             <div className="card-actions justify-center">
               <button className="btn btn-primary buyNow">Add to Cart</button>
@@ -70,7 +70,7 @@ const Prints = () => {
         <Card className="card lg:card-side bg-base-100 shadow-xl mb-5">
           <div className="card-body">
             <img alt="Devil's Disco" src={img6}></img>
-            <h2 className="card-title text-xl">The Devils Disco</h2>
+            <Card.Title>The Devils Disco</Card.Title>
             <p>**Animation Under Construction</p>
             <div className="card-actions justify-center">
               <button className="btn btn-primary buyNow">Add to Cart</button>

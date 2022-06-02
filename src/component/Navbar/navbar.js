@@ -18,7 +18,7 @@ const Nav = ({ currentPage, handlePageChange }) => {
     
 
       <Navbar.End className="flex-1 px-2 mx-2">
-        <div className="hidden sm:flex items-stretch space-x-4">
+        <div className="hidden sm:flex items-stretch space-x-4 font-medium">
           <a href="#home" onClick={() => handlePageChange('Home')} className={currentPage === 'Home' ? 'nav-link active' : 'nav-link'}>Home</a>
           <a href="#about" onClick={() => handlePageChange('About')} className={currentPage === 'About' ? 'nav-link active' : 'nav-link'}>About</a>
           <a href="#resume" onClick={() => handlePageChange('Resume')} className={currentPage === 'Resume' ? 'nav-link active' : 'nav-link'}>Resume</a>

@@ -1,15 +1,16 @@
 import React from "react";
-import { Footer, Button } from "react-daisyui";
-// import "../../styles/footerStyle.css";
+import { Footer } from "react-daisyui";
 import image2 from "../../images/heart (9).png";
-
+import icon1 from "../../images/github.png";
+import icon2 from "../../images/linkedin.png";
+import icon3 from "../../images/instagram.png";
 // * TO-DO: add Social icons with links to profiles
 
 const Foot = ({ currentPage, handlePageChange }) => {
   return (
     <Footer className="footer footer-center p-10 bg-base-100  rounded ">
       <div>
-        <div>
+        <div className="font-semibold text-lg">
           <Footer.Title>Company</Footer.Title>
         </div>
         <div className="hidden sm:flex items-stretch space-x-4 mb-4 mt-4">
@@ -62,7 +63,7 @@ const Foot = ({ currentPage, handlePageChange }) => {
             Contact
           </a>
         </div>
-        <div className="mt-3">
+        <div className="mt-3 font-semibold text-lg">
           <Footer.Title>Services</Footer.Title>
         </div>
         <div className="my-4">
@@ -71,19 +72,13 @@ const Foot = ({ currentPage, handlePageChange }) => {
           <p>Illustration</p>
           <p>Branding</p>
         </div>
-        <div className="my-3">
+        <div className="my-3 font-semibold text-lg">
           <Footer.Title>Social</Footer.Title>
         </div>
-        <div>
-          <Button size="sm" className="btn-primary  hover:bg-secondary border-none">
-            Github
-          </Button>
-          <Button size="sm" className="btn-primary  hover:bg-secondary border-none">
-            Instagram
-          </Button>
-          <Button size="sm" className="btn-primary hover:bg-secondary border-none">
-            LinkedIn
-          </Button>
+        <div className="hidden sm:flex items-stretch space-x-4 mb-4 mt-4">
+          <img alt="github" src={icon1} height="40px" width="50px"></img>
+          <img alt="linkedin" src={icon2} height="40px" width="50px"></img>
+          <img alt="instagram" src={icon3} height="40px" width="50px"></img>
         </div>
       </div>
       <div>
