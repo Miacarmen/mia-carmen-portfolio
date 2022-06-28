@@ -1,6 +1,6 @@
 {
-  "homepage": "http://miacarmen.github.io/mia-carmen-portfolio/",
-  "name": "react-portfolio",
+  "homepage": "https://miacarmen.github.io/mia-carmen-portfolio/",
+  "name": "mia-carmen-portfolio",
   "version": "0.1.0",
   "private": true,
   "dependencies": {

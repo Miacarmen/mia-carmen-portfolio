@@ -1,9 +1,12 @@
-import Container from "./component/Container/pageContainer";
+import React from 'react';
+import Container from './component/Container/pageContainer';
 
-export default function App() {
+const App = () => {
   return (
     <div>
       <Container />
     </div>
   );
 }
+
+export default App;

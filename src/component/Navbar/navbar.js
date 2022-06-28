@@ -1,5 +1,4 @@
 import React, { useState } from 'react';
-import { Link } from 'react-router-dom';
 import { Navbar } from 'react-daisyui';
 import image from '../../images/heart (8).png';
 import '../../styles/Navbar.css';
@@ -17,7 +16,7 @@ const Nav = ({ currentPage, handlePageChange }) => {
         </span>
       </Navbar.Start>
 
-      <Navbar.End className='flex-1 px-2 mx-2 '>
+      <Navbar.End className='flex-1 px-2 mx-2'>
         <div className='dropdown dropdown-left'>
           <label
             tabindex='0'
@@ -41,33 +40,101 @@ const Nav = ({ currentPage, handlePageChange }) => {
           </label>
           <ul
             tabindex='0'
-            className=' menu menu-compact dropdown-content mt-3 p-2 shadow bg-base-100 rounded-box w-52'
+            className='menu menu-compact dropdown-content mt-3 p-2 shadow bg-base-100 rounded-box w-52'
           >
             <li>
-              <Link to='/'>Home</Link>
+              <a
+                href='#home'
+                onClick={() => handlePageChange('Home')}
+                className={
+                  currentPage === 'Home' ? 'nav-link active' : 'nav-link'
+                }
+              >
+                Home
+              </a>
             </li>
             <li>
-              <Link to='/portfolio'>Portfolio</Link>
+              <a
+                href='#portfolio'
+                onClick={() => handlePageChange('Portfolio')}
+                className={
+                  currentPage === 'Portfolio' ? 'nav-link active' : 'nav-link'
+                }
+              >
+                Portfolio
+              </a>
             </li>
             <li>
-              <Link to='/resume'>Resume</Link>
+              <a
+                href='#resume'
+                onClick={() => handlePageChange('Resume')}
+                className={
+                  currentPage === 'Resume' ? 'nav-link active' : 'nav-link'
+                }
+              >
+                Resume
+              </a>
             </li>
             <li>
-              <Link to='/shop'>Shop</Link>
+              <a
+                href='#shop'
+                onClick={() => handlePageChange('Shop')}
+                className={
+                  currentPage === 'Shop' ? 'nav-link active' : 'nav-link'
+                }
+              >
+                Shop
+              </a>
             </li>
             <li>
-              <Link to='/about'>About</Link>
+              <a
+                href='#about'
+                onClick={() => handlePageChange('About')}
+                className={
+                  currentPage === 'About' ? 'nav-link active' : 'nav-link'
+                }
+              >
+                About
+              </a>
             </li>
             <li>
-              <Link to='/contact'>Contact</Link>
+              <a
+                href='#contact'
+                onClick={() => handlePageChange('Contact')}
+                className={
+                  currentPage === 'Contact' ? 'nav-link active' : 'nav-link'
+                }
+              >
+                Contact
+              </a>
             </li>
           </ul>
         </div>
 
         <div className='hidden md:flex items-stretch space-x-4 font-medium'>
-          <Link to='/'>Home</Link>
-          <Link to='/about'>About</Link>
-          <Link to='/contact'>Contact</Link>
+          <a
+            href='#home'
+            onClick={() => handlePageChange('Home')}
+            className={currentPage === 'Home' ? 'nav-link active' : 'nav-link'}
+          >
+            Home
+          </a>
+          <a
+            href='#about'
+            onClick={() => handlePageChange('About')}
+            className={currentPage === 'About' ? 'nav-link active' : 'nav-link'}
+          >
+            About
+          </a>
+          <a
+            href='#contact'
+            onClick={() => handlePageChange('Contact')}
+            className={
+              currentPage === 'Contact' ? 'nav-link active' : 'nav-link'
+            }
+          >
+            Contact
+          </a>
         </div>
       </Navbar.End>
     </Navbar>
