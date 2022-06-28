@@ -1,4 +1,4 @@
-# react-portfolio
+# my-portfolio
 
 ## Table of Contents
 - [Description](#description)
@@ -11,7 +11,7 @@
 
 ## Description
 
-Portfolio built with react. All my Web Development Apps and Illustrations in one place. 
+Portfolio built with react. Checkout my Web Development Apps, Illustrations, and resume all in one place. 
 
 ## Deployed Site
 
