@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/mia-carmen-portfolio/static/css/main.1e28ee8f.css",
-    "main.js": "/mia-carmen-portfolio/static/js/main.767ad711.js",
+    "main.css": "/mia-carmen-portfolio/static/css/main.8907c370.css",
+    "main.js": "/mia-carmen-portfolio/static/js/main.f3b2d61b.js",
     "static/media/Devils-Disco-Bottom.png": "/mia-carmen-portfolio/static/media/Devils-Disco-Bottom.e5cab5e60150973e7d39.png",
     "static/media/Devils-Disco-Top.png": "/mia-carmen-portfolio/static/media/Devils-Disco-Top.98d2ea9d8d882b7ebe12.png",
     "static/media/Feral.png": "/mia-carmen-portfolio/static/media/Feral.e77cb5b053d55c27ae64.png",
@@ -18,11 +18,11 @@
     "static/media/github.png": "/mia-carmen-portfolio/static/media/github.44eee0c4a6c25b0d7347.png",
     "static/media/linkedin.png": "/mia-carmen-portfolio/static/media/linkedin.032cf8a63be2f0f4d425.png",
     "index.html": "/mia-carmen-portfolio/index.html",
-    "main.1e28ee8f.css.map": "/mia-carmen-portfolio/static/css/main.1e28ee8f.css.map",
-    "main.767ad711.js.map": "/mia-carmen-portfolio/static/js/main.767ad711.js.map"
+    "main.8907c370.css.map": "/mia-carmen-portfolio/static/css/main.8907c370.css.map",
+    "main.f3b2d61b.js.map": "/mia-carmen-portfolio/static/js/main.f3b2d61b.js.map"
   },
   "entrypoints": [
-    "static/css/main.1e28ee8f.css",
-    "static/js/main.767ad711.js"
+    "static/css/main.8907c370.css",
+    "static/js/main.f3b2d61b.js"
   ]
 }
