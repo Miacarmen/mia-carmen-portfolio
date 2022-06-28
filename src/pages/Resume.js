@@ -14,7 +14,7 @@ const Resume = () => {
               View and Download My Resume
             </h2>
             <div className="card-actions justify-center">
-              <link alt="resume" href="file:///Users/miacarmen/Downloads/Mia_Carmen_Resume.PDF"><button className="btn btn-primary ">View</button></link>
+              <link alt="resume" download="https://drive.google.com/file/d/1Y9KHYeXjQtRk9HkX1pUJqG5OdX-Q8lKE/view?usp=sharing"><button className="btn btn-primary ">Download</button></link>
             </div>
           </div>
         </Card>
