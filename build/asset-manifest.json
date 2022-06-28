@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/mia-carmen-portfolio/static/css/main.1e28ee8f.css",
+    "main.js": "/mia-carmen-portfolio/static/js/main.3e9c6625.js",
+    "static/media/Devils-Disco-Bottom.png": "/mia-carmen-portfolio/static/media/Devils-Disco-Bottom.e5cab5e60150973e7d39.png",
+    "static/media/Devils-Disco-Top.png": "/mia-carmen-portfolio/static/media/Devils-Disco-Top.98d2ea9d8d882b7ebe12.png",
+    "static/media/Feral.png": "/mia-carmen-portfolio/static/media/Feral.e77cb5b053d55c27ae64.png",
+    "static/media/Temper.png": "/mia-carmen-portfolio/static/media/Temper.e4af0123e9b2a61a83d0.png",
+    "static/media/Devil3.png": "/mia-carmen-portfolio/static/media/Devil3.a7976779498134fd6ceb.png",
+    "static/media/GirlyNoteTaker.png": "/mia-carmen-portfolio/static/media/GirlyNoteTaker.305d49d4a9a283728c33.png",
+    "static/media/Swimming.png": "/mia-carmen-portfolio/static/media/Swimming.b8c5d0732c10b937f7e6.png",
+    "static/media/MiseEnPlace.png": "/mia-carmen-portfolio/static/media/MiseEnPlace.fc90e2d8e23b052fceec.png",
+    "static/media/DayPlanner.png": "/mia-carmen-portfolio/static/media/DayPlanner.4e81360dc30706bcb786.png",
+    "static/media/heart (9).png": "/mia-carmen-portfolio/static/media/heart (9).6f5cc1a7d66d695b639b.png",
+    "static/media/heart (8).png": "/mia-carmen-portfolio/static/media/heart (8).c6f08fff35ad3a7f4a85.png",
+    "static/media/HeadShot.jpg": "/mia-carmen-portfolio/static/media/HeadShot.26b9d773c5076f080f56.jpg",
+    "static/media/instagram.png": "/mia-carmen-portfolio/static/media/instagram.b4ff9be06a8f84fada1b.png",
+    "static/media/github.png": "/mia-carmen-portfolio/static/media/github.44eee0c4a6c25b0d7347.png",
+    "static/media/linkedin.png": "/mia-carmen-portfolio/static/media/linkedin.032cf8a63be2f0f4d425.png",
+    "index.html": "/mia-carmen-portfolio/index.html",
+    "main.1e28ee8f.css.map": "/mia-carmen-portfolio/static/css/main.1e28ee8f.css.map",
+    "main.3e9c6625.js.map": "/mia-carmen-portfolio/static/js/main.3e9c6625.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1e28ee8f.css",
+    "static/js/main.3e9c6625.js"
+  ]
+}
