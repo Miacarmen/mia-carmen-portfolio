@@ -8,7 +8,7 @@ import img5 from "../images/Devils-Disco-Top.png";
 import img6 from "../images/Devils-Disco-Bottom.png";
 
 // * TO-DO: When this page is active, display shopping cart icon
-// * TO-DO: When a user clicks add to cart, image is added to cart page
+// * TO-DO: When a user clicks add to cart, add item to cart, change button to say "added"
 const Prints = () => {
   return (
     <div className="bg-base-200">

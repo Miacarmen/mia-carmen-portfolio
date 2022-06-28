@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import { Navbar } from 'react-daisyui';
 import image from '../../images/heart (8).png';
 import '../../styles/Navbar.css';
+import { FaShoppingCart } from 'react-icons/fa';
 
 // * TO-DO: change active link color, and link hover color
 
@@ -108,6 +109,17 @@ const Nav = ({ currentPage, handlePageChange }) => {
                 Contact
               </a>
             </li>
+            <li>
+              <a
+                href='#cart'
+                onClick={() => handlePageChange('Cart')}
+                className={
+                  currentPage === 'Cart' ? 'nav-link active' : 'nav-link'
+                }
+              >
+                Cart
+              </a>
+            </li>
           </ul>
         </div>
 
@@ -134,6 +146,10 @@ const Nav = ({ currentPage, handlePageChange }) => {
             }
           >
             Contact
+          </a>
+
+          <a href='#cart' onClick={() => handlePageChange('Cart')}>
+            <FaShoppingCart size={20} />
           </a>
         </div>
       </Navbar.End>

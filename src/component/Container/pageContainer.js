@@ -7,6 +7,7 @@ import Resume from "../../pages/Resume";
 import Contact from "../../pages/Contact";
 import Portfolio from "../../pages/Portfolio";
 import Shop from "../../pages/Shop";
+import Cart from '../../pages/Cart';
 
 const PageContainer = () => {
   const [currentPage, setCurrentPage] = useState("Home");
@@ -32,6 +33,9 @@ const PageContainer = () => {
     }
     if (currentPage === "Contact") {
       return <Contact />;
+    }
+    if (currentPage === "Cart") {
+      return <Cart />;
     }
   };
 
