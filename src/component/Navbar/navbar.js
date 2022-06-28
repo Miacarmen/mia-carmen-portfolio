@@ -3,7 +3,7 @@ import { Navbar } from "react-daisyui";
 import image from "../../images/heart (8).png";
 import '../../styles/Navbar.css';
 
-// * TO-DO: add hamburger menu for mobile views
+// * TO-DO: add hamburger menu for mobile views 
 // * TO-DO: change active link color, and link hover color
 
 const Nav = ({ currentPage, handlePageChange }) => {
