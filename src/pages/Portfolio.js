@@ -4,8 +4,6 @@ import p1 from "../images/GirlyNoteTaker.png";
 import p2 from "../images/DayPlanner.png";
 import p3 from "../images/MiseEnPlace.png";
 
-// * TO-DO: add SIX  projects
-
 const Portfolio = () => {
   return (
     <div className="bg-base-200">

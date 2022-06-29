@@ -1,8 +1,6 @@
 import React from "react";
 import { Card, Button } from "react-daisyui";
 
-// add link to a downloadable resume and a list of the developer’s proficiencies
-
 const Resume = () => {
   return (
     <div className="bg-base-200">

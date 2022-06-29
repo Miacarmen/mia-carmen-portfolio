@@ -1,6 +1,5 @@
 import React from 'react';
 import profileImg from '../images/HeadShot.jpg';
-// * TO-DO: add professional image of myself
 
 const About = () => {
   return (
